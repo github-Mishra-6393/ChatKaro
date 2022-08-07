@@ -1,0 +1,27 @@
+{
+  "name": "chatkaro",
+  "version": "1.0.0",
+  "description": "this is a real time chat app that can used by users to send massages",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit951github/ChatKaro.git"
+  },
+  "author": "Ankit Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankit951github/ChatKaro/issues"
+  },
+  "homepage": "https://github.com/ankit951github/ChatKaro#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  }
+}
